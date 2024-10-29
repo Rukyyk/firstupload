@@ -1,0 +1,381 @@
+   #header-responsive {
+     display: grid;
+     grid-template-columns: 1fr 4fr;
+     animation: header 4s infinite;
+     padding: 5px;
+   }
+
+   .head-resp1 {
+     text-align: center;
+   }
+
+   /* 
+#header {
+    background-color: darksalmon;
+    color: black;
+    animation: header 4s infinite;
+    padding: 15px;
+} */
+
+   @media (max-width: 1115px) {
+
+     .headtext .span1,
+     .headtext .span2 {
+       padding: 0px;
+       font-size: small;
+       border-radius: 0px;
+       /* padding: 50px; */
+       background-color: unset;
+     }
+   }
+
+   .headtext {
+     float: right;
+     margin-right: 160px;
+     margin-top: 35px;
+   }
+
+   .headtext .span1 {
+     background-color: rgb(59, 33, 33);
+     font-weight: 600;
+     padding: 10px;
+     border-radius: 5px;
+     color: white;
+   }
+
+   .headtext .span2 {
+     background-color: rgb(59, 33, 33);
+     font-weight: 600;
+     color: white;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px white solid;
+   }
+
+   @keyframes header {
+     0% {
+       background-color: red;
+       color: aqua;
+     }
+
+     25% {
+       background-color: yellow;
+       color: green;
+     }
+
+     50% {
+       background-color: blue;
+       color: pink;
+     }
+
+     75% {
+       background-color: green;
+       color: red;
+     }
+
+     100% {
+       background-color: red;
+       color: bisque;
+     }
+   }
+
+
+
+   .brand {
+     margin: 0px;
+   }
+
+   a {
+     text-decoration: none;
+     color: unset;
+   }
+
+   .logo {
+     width: 120px;
+     padding: 0px;
+     margin: 0px;
+     /* margin-left: 0px; */
+   }
+
+   .div1 {
+     text-align: center;
+     /* background-color: bisque; */
+     padding: 25px 0px 25px 0px;
+
+   }
+
+   .div1text span {
+     border-radius: 5px;
+     border: 2px solid rgb(216, 105, 122);
+     font-style: italic;
+     font-size: 40px;
+   }
+
+
+   .div1text {
+     animation: div1text 4s infinite;
+     color: rgb(165, 214, 28);
+     position: relative;
+     margin-left: 10px;
+     margin-right: 10px;
+
+   }
+
+   @keyframes div1text {
+     0% {
+       top: 0px;
+       bottom: 30px;
+       color: crimson;
+
+
+     }
+
+     25% {
+       top: 20px;
+       bottom: 0px;
+       color: rgb(0, 0, 255);
+
+     }
+
+     50% {
+       top: 0px;
+       bottom: 30px;
+       color: rgb(53, 1, 53);
+     }
+
+     75% {
+       top: 20px;
+       bottom: 0px;
+       color: teal;
+     }
+
+     100% {
+       top: 0px;
+       bottom: 30px;
+       color: rgb(119, 0, 50);
+
+
+     }
+
+   }
+
+   .div2 {
+     /* background-color: deeppink; */
+     text-align: center;
+     padding: 25px;
+     color: rgb(0, 0, 0);
+     margin-top: 10px;
+   }
+
+   .div2text {
+     animation: div2text 4s infinite;
+     position: relative;
+     font-size: xx-large;
+   }
+
+   @keyframes div2text {
+     0% {
+       right: 0vh;
+       left: 15vh;
+     }
+
+     25% {
+       right: 15vh;
+       left: 0vh;
+     }
+
+     50% {
+       right: 0vh;
+       left: 15vh;
+     }
+
+     75% {
+       right: 15vh;
+       left: 0vh;
+     }
+
+     100% {
+       right: 0vh;
+       left: 15vh;
+     }
+
+     /* 0% {
+       right: 0px;
+       left: 150px;
+     }
+
+     25% {
+       right: 150px;
+       left: 0px;
+     }
+
+     50% {
+       right: 0px;
+       left: 150px;
+     }
+
+     75% {
+       right: 150px;
+       left: 0px;
+     }
+
+     100% {
+       right: 0px;
+       left: 150px;
+     } */
+
+   }
+
+
+   .gridlayout {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 5px;
+     text-align: center;
+     margin-top: 10px;
+     padding: 50px;
+   }
+
+   .gridbox h3 {
+     margin-bottom: 60px;
+   }
+
+   .boxes {
+     background-color: bisque;
+     border-radius: 5px;
+     margin-right: 10px;
+     display: inline-block;
+     padding: 15px;
+     font-weight: bold;
+     animation: boxes 5s infinite;
+     color: firebrick;
+     text-shadow: 1px 1px 1px white;
+     font-weight: 900;
+     border: 1px solid firebrick;
+     margin-bottom: 35px;
+     width: 100px;
+   }
+
+   @keyframes boxes {
+     50% {
+       transform: rotate(180deg);
+     }
+   }
+
+   .boxes2 {
+     background-color: bisque;
+     border-radius: 200px;
+     margin-right: 10px;
+     display: inline-block;
+     text-align: center;
+     padding: 15px;
+     font-weight: bold;
+     animation: boxes2 5s infinite;
+     color: firebrick;
+     text-shadow: 1px 1px 1px white;
+     font-weight: 900;
+     border: 1px solid firebrick;
+     width: 100px;
+
+
+   }
+
+   @keyframes boxes2 {
+     50% {
+       transform: rotate(180deg);
+     }
+   }
+
+   .image {
+     width: 350px;
+     height: 500px;
+     margin-left: 20px;
+     border: dotted 5px firebrick;
+     border-radius: 50px;
+     /* transition: width 2s; */
+     /* background-color: darkred; */
+     animation: myImage 4s infinite;
+     animation-delay: 0s;
+   }
+
+   @keyframes myImage {
+    0%{
+      width: 350px;
+      height: 500px;
+    }
+    66%{
+      width: 175px;
+      height: 250px;
+    }
+    100%{
+      width: 350px;
+        height: 500px;
+    }
+   }
+
+   
+
+
+
+
+   .div3 {
+     background-color: navajowhite;
+     text-align: center;
+     padding-top: 10px;
+     margin-top: 10px;
+     color: darkred;
+     padding: 15px;
+
+   }
+
+   .linkimg {
+     width: 25px;
+     height: 25px;
+
+   }
+
+   .linksc {
+     text-decoration: none;
+     color: white;
+   }
+
+   .list {
+     list-style-type: none;
+
+   }
+
+   .link {
+     text-decoration: none;
+     color: darkred;
+   }
+
+   .footer {
+     background-color: fuchsia;
+     text-align: center;
+     color: white;
+     margin-top: 10px;
+     padding: 10px;
+   }
+
+   .gridbox2 {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 10px;
+     /* text-align: center; */
+     margin-top: 10px;
+   }
+
+   .boxes3 {
+     text-align: center;
+
+   }
+
+   .list2 {
+     text-align: center;
+     list-style-type: none;
+   }
+
+   .contactlink {
+     text-decoration: none;
+     color: white;
+   }
