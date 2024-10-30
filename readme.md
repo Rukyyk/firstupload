@@ -1,13 +1,13 @@
 …or create a new repository on the command line
 echo "# firstupload" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Rukyyk/firstupload.git
-git push -u origin main
+git init   //Initialing git for the first time in a folder
+git add .  //Adding all the file to git
+git commit -m "first commit"   //Comming the added files
+git branch -M main  //setting the branch to maain
+git remote add origin https://github.com/Rukyyk/firstupload.git   //Connecting to the remotegit folder /repository url
+git push -u origin main  //pushing the codes to the repository
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/Rukyyk/firstupload.git
-git branch -M main
-git push -u origin main
+===== AFTER SET UP (DURING UPDATE) =====
+git add .
+git commit -m "your commit message"   
+git push -u origin main  
