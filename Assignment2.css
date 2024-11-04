@@ -168,7 +168,7 @@
    }
 
    .div2text {
-     animation: div2text 4s infinite;
+     /* animation: div2text 4s infinite; */
      position: relative;
      font-size: xx-large;
    }
@@ -176,7 +176,7 @@
    @keyframes div2text {
      0% {
        right: 0vh;
-       left: 15vh;
+       left: 10vh;
      }
 
      25% {
@@ -186,17 +186,17 @@
 
      50% {
        right: 0vh;
-       left: 15vh;
+       left: 10vh;
      }
 
      75% {
-       right: 15vh;
+       right: 10vh;
        left: 0vh;
      }
 
      100% {
        right: 0vh;
-       left: 15vh;
+       left: 10vh;
      }
 
      /* 0% {
@@ -279,7 +279,8 @@
 
 
    }
-    /* .boxes2 .stop{
+
+   /* .boxes .stop{
     animation: none;
    } */
 
@@ -302,21 +303,23 @@
    }
 
    @keyframes notAssignedYet {
-    0%{
-      width: 350px;
-      height: 500px;
-    }
-    66%{
-      width: 175px;
-      height: 250px;
-    }
-    100%{
-      width: 350px;
-        height: 500px;
-    }
+     0% {
+       width: 350px;
+       height: 500px;
+     }
+
+     66% {
+       width: 175px;
+       height: 250px;
+     }
+
+     100% {
+       width: 350px;
+       height: 500px;
+     }
    }
 
-   
+
 
 
 
@@ -360,16 +363,23 @@
      padding: 10px;
    }
 
+   footer {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 10px;
+   }
+
    .gridbox2 {
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap: 10px;
-     /* text-align: center; */
+     text-align: center;
      margin-top: 10px;
    }
 
    .boxes3 {
      text-align: center;
+     display: grid;
 
    }
 
