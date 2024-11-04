@@ -279,6 +279,9 @@
 
 
    }
+    /* .boxes2 .stop{
+    animation: none;
+   } */
 
    @keyframes boxes2 {
      50% {
